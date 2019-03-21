@@ -20,7 +20,9 @@ typedef enum : NSUInteger {
 @property (nonatomic, assign) NKAlertViewType type;
 @property (nonatomic, strong) UIView *contentView;
 
+// 点击背景时候隐藏alert
 @property (nonatomic, assign) BOOL hiddenWhenTapBG;
+
 // Show the alert view in current window
 - (void)show;
 

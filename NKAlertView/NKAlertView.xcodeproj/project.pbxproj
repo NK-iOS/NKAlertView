@@ -18,6 +18,7 @@
 		1B10F29F22429775002141E5 /* NKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B10F29D22429775002141E5 /* NKAlertView.m */; };
 		1B10F2A222429931002141E5 /* CenterAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B10F2A122429931002141E5 /* CenterAlertContentView.m */; };
 		1B10F2A522429947002141E5 /* BottomAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B10F2A422429947002141E5 /* BottomAlertContentView.m */; };
+		1B10F30922433E97002141E5 /* shop_invite_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B10F30822433E97002141E5 /* shop_invite_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		1B10F2A122429931002141E5 /* CenterAlertContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterAlertContentView.m; sourceTree = "<group>"; };
 		1B10F2A322429947002141E5 /* BottomAlertContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomAlertContentView.h; sourceTree = "<group>"; };
 		1B10F2A422429947002141E5 /* BottomAlertContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomAlertContentView.m; sourceTree = "<group>"; };
+		1B10F30822433E97002141E5 /* shop_invite_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_invite_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				1B10F2A122429931002141E5 /* CenterAlertContentView.m */,
 				1B10F2A322429947002141E5 /* BottomAlertContentView.h */,
 				1B10F2A422429947002141E5 /* BottomAlertContentView.m */,
+				1B10F30822433E97002141E5 /* shop_invite_icon.png */,
 				1B10F27022429704002141E5 /* Main.storyboard */,
 				1B10F27322429706002141E5 /* Assets.xcassets */,
 				1B10F27522429706002141E5 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				1B10F27722429706002141E5 /* LaunchScreen.storyboard in Resources */,
 				1B10F27422429706002141E5 /* Assets.xcassets in Resources */,
 				1B10F27222429704002141E5 /* Main.storyboard in Resources */,
+				1B10F30922433E97002141E5 /* shop_invite_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

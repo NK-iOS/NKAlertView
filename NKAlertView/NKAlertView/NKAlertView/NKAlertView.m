@@ -85,11 +85,16 @@
         _contentView.layer.mask = shapeLayer;
     }
 }
+
 - (void)setContentView:(UIView *)contentView
 {
     _contentView = contentView;
     if (self.type == NKAlertViewTypeBottom) {
         _contentView.frame = CGRectMake((CGRectGetMaxX(self.frame) - CGRectGetWidth(_contentView.frame)) * 0.5, CGRectGetMaxY(self.frame), CGRectGetWidth(_contentView.frame), CGRectGetHeight(_contentView.frame));
+        /*
+         利用贝塞尔曲线为contentView的左上角、右上角设置圆角；
+         如果不需要可以注释下边代码
+         */
         UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:_contentView.bounds byRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight cornerRadii:CGSizeMake(10, 10)];
         CAShapeLayer *shapeLayer = [CAShapeLayer layer];
         shapeLayer.frame = _contentView.bounds;

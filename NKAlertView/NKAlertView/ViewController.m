@@ -25,16 +25,16 @@
 // 从中间弹出
 - (IBAction)centerAlertAction:(id)sender {
     NKAlertView *alertView = [[NKAlertView alloc] init];
-    CenterAlertContentView *customContentView = [[CenterAlertContentView alloc] initWithFrame:CGRectMake(0, 0, 280, 300)];
+    CenterAlertContentView *customContentView = [[CenterAlertContentView alloc] initWithFrame:CGRectMake(0, 0, 281, 281)];
     alertView.contentView = customContentView;
-    alertView.hiddenWhenTapBG = YES;
+//    alertView.hiddenWhenTapBG = YES;
     [alertView show];
 }
 
 // 从底部弹出
 - (IBAction)bottomAlertAction:(id)sender {
     NKAlertView *alertView = [[NKAlertView alloc] init];
-    BottomAlertContentView *customContentView = [[BottomAlertContentView alloc] initWithFrame:CGRectMake(0, 0, 280, 300)];
+    BottomAlertContentView *customContentView = [[BottomAlertContentView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 400)];
     alertView.type = NKAlertViewTypeBottom;
     alertView.contentView = customContentView;
     alertView.hiddenWhenTapBG = YES;
