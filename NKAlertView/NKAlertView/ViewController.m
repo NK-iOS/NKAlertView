@@ -27,6 +27,7 @@
     NKAlertView *alertView = [[NKAlertView alloc] init];
     CenterAlertContentView *customContentView = [[CenterAlertContentView alloc] initWithFrame:CGRectMake(0, 0, 281, 281)];
     alertView.contentView = customContentView;
+    // 点击背景隐藏提示框
 //    alertView.hiddenWhenTapBG = YES;
     [alertView show];
 }
